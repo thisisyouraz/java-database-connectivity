@@ -8,12 +8,6 @@ public class Main
 
 		User user = new User(3, "bilal","bilal@gmail.com", "M", false);
 
-//		mySqlOperations.insert(user);
-
-//		mySqlOperations.update(user);
-
-//		mySqlOperations.delete(user);
-
 		System.out.println("\nupdated record:");
 		mySqlOperations.select();
 
